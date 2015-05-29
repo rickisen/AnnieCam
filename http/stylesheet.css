@@ -1,0 +1,22 @@
+#header {
+	background-color:lightblue;
+	color:white;
+	text-align:center;
+}
+
+.button {
+	background-color:lightgreen;
+	color:white;
+	border-radius:5px;
+	display:inline-block;
+	margin:5px;
+	padding:5px;
+}
+
+#footer {
+	background-color:lightyellow;
+	color:white;
+	text-align:center;
+	height:100px;
+	clear:both;
+}
