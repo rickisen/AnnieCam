@@ -1,9 +1,18 @@
 <!DOCTYPE html>
 
+<script>
+// this will reload page after every 10 minutes
+ function autoRefresh1() {
+	   window.location.reload();
+} 
+ setInterval('autoRefresh1()', 600000); 
+</script>
+
 <html>
 	<head>
 		<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
 		<link rel="stylesheet" href="//releases.flowplayer.org/6.0.1/skin/minimalist.css">
+		<script src="script.js"></script>
 
 		<script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
 		<script src="//releases.flowplayer.org/6.0.1/flowplayer.min.js"></script>
@@ -16,10 +25,9 @@
 		</div>
 
 		<h3>Welcome to AnnieCam</h3>
-		<p>Press "start camera" to start viewing our glorious duck, it will turn off after 20 minutes though</p>
+		<p>Press "start camera" to start viewing our glorious duck, 
+		it will turn off after 10 minutes though</p>
 
-		<div class="button">Start Camera</div>
-		<div class="button">Stop Camera</div>
 		<div class="button">Toggle Light</div>
 
 		<div class="flowplayer">
