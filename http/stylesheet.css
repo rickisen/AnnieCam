@@ -68,5 +68,8 @@ h3 {
 table {
 	margin-left:auto;
 	margin-right:auto;
-
+}
+td img {
+	width:200px;
+	height:auto;
 }
