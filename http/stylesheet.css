@@ -1,6 +1,7 @@
 
 body {
 	background-color:#88bbff;
+	font-family:sans;
 }
 
 #header {
@@ -49,12 +50,13 @@ body {
 }
 
 h3 {
-	padding-top:30px;
 	margin:auto;
 	text-align:center;
+	color:#222222;
 }
 
-#liveView {
+.post {
+	padding-top:50px;
 }
 
 #mainWrapper img {
