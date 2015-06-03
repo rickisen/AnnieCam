@@ -1,42 +1,39 @@
 <!DOCTYPE html>
-
-<script>
-// this will reload page after every 10 minutes
- function autoRefresh1() {
-	   window.location.reload();
-} 
- setInterval('autoRefresh1()', 600000); 
-</script>
-
 <html>
 	<head>
-		<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
-		<link rel="stylesheet" href="//releases.flowplayer.org/6.0.1/skin/minimalist.css">
-		<script src="script.js"></script>
-
-		<script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
-		<script src="//releases.flowplayer.org/6.0.1/flowplayer.min.js"></script>
-
-		<title>AnnieCam</title>
+		<meta content="width=device-width; height=device-height;" name="viewport">
+		<link rel="stylesheet" type="text/css" href="stylesheet.css"></link>
+		<title> AnnieCam </title>
 	</head>
 	<body>
-		<div id="header">
-			<h1>AnnieCam!</h1>
+	<div id="header"><img src="logo.png"></div>
+		
+	<div id="mainWrapper">
+
+		<h3>Welcome to AnnieCam!</h3>
+
+		<p>This is a small site that streams a webcam of a duck that decided to make its nest in our flowerpot,
+		and she laid some eggs there. Unfortinuatly the flowerpot is located on the 9th floor. 
+		So we have to keep watch for when the eggs are hatched and then help the ducklings to 
+		get down without hurting themselfs</p>
+
+		<div id="liveView">
+			<img class="shrinkToFit" alt="http://85.227.164.19/" src="http://85.227.164.19/" height="576" width="720">
 		</div>
 
-		<h3>Welcome to AnnieCam</h3>
-		<p>Press "start camera" to start viewing our glorious duck, 
-		it will turn off after 10 minutes though</p>
+		<table>
+			<th colspan="3">Previous 24h</th>
+			<tr><td><img src="1.jpg"></td><td><img src="2.jpg"></td><td><img src="3.jpg"></td></tr>
+			<tr><td><img src="4.jpg"></td><td><img src="5.jpg"></td><td><img src="6.jpg"></td></tr>
+			<tr><td><img src="7.jpg"></td><td><img src="8.jpg"></td><td><img src="9.jpg"></td></tr>
+		</table>
 
-		<div class="button">Toggle Light</div>
+		
+	</div>
 
-		<div class="flowplayer">
-			<video>
-				<source type="video/webm" src="//stream.flowplayer.org/drive.webm">
-				<source type="video/mp4" src="//stream.flowplayer.org/drive.mp4">
-			</video>
-		</div>
-
-		<div id="footer"></div>
+	<div id="footer">
+	<p>Coded by rickisen 2015<br>	
+	rickard.spam@gmail.com </p>
+	</div>
 	</body>
 </html>
