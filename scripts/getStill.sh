@@ -2,7 +2,7 @@
 
 cd /usr/local/apache2/htdocs/cam1
 
-Pic=$(ls *$(date +%Y%m%d%H)*-01.jpg | head -1)
+Pic=$(ls *$(date +%Y%m%d%H)*.jpg | head -1)
 cp -f $Pic /srv/http/9H/new.jpg
 
 cd /srv/http/9H/
